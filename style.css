@@ -3,7 +3,20 @@ html {
   width: 100%;
 }
 body {
-  font-family: 'Antic Didone', serif;
+  font-family: 'Nova Cut', cursive;
+  text-transform: uppercase;
+}
+p, h3 {
+  font-family: 'Nova Slim', cursive;
+  text-transform: none;
+}
+.section-label {
+  text-shadow: -2px 5px rgba(225, 0, 0, 0.25), 2px -5px rgb(255, 0, 0);
+  color: rgba(225, 0, 0, 0.5);
+}
+.anchor-padding {
+  padding-top: 70px;
+  margin-top: -70px;
 }
 .aspectRatioBox {
   padding-top: calc(4.5/3 * 100%);
@@ -15,13 +28,20 @@ body {
   background-size: cover;
   background-position: center;
 }
+.aspectRatioBox3 {
+  padding-top: calc(3/4 * 100%);
+  background-size: cover;
+  background-position: center;
+}
 .pic-anchor a:hover {
-  color: red;
   opacity: 100%;
-  transition: color .25s, opacity .25s;
+  text-shadow: -2px 5px rgba(225, 0, 0, 0.25), 2px -5px rgb(225, 0, 0);
+  color: rgba(225, 0, 0, 0.5);
+  transition: color .25s, opacity .25s, text-shadow .25s;
 }
 .pic-anchor a {
   text-decoration: none;
   color: black;
   opacity: 85%;
+  text-shadow: none;
 }
