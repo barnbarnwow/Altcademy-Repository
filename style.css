@@ -33,6 +33,24 @@ p, h3 {
   background-size: cover;
   background-position: center;
 }
+.contact-link {
+  color: black;
+  text-decoration: none;
+}
+.contact-link:hover {
+  text-shadow: -2px 5px rgba(0, 94, 255, 0.25), 2px -5px rgb(0, 94, 255);
+  color: rgba(0, 94, 255, 0.5);
+  transition: color .25s, opacity .25s, text-shadow .25s;
+}
+.project-link {
+  color: black;
+  text-decoration: none;
+}
+.project-link:hover {
+  text-shadow: 4px 4px rgb(0, 94, 255, 0.25), -4px -4px rgb(0, 94, 255, 0.25), 4px -4px rgb(0, 94, 255, 0.25) ,-4px 4px rgb(0, 94, 255, 0.25);
+  color: rgba(0, 94, 255);
+  transition: color .25s, opacity .25s, text-shadow .25s;
+}
 .pic-anchor a:hover {
   opacity: 100%;
   text-shadow: -2px 5px rgba(0, 94, 255, 0.25), 2px -5px rgb(0, 94, 255);
