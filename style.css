@@ -11,8 +11,8 @@ p, h3 {
   text-transform: none;
 }
 .section-label {
-  text-shadow: -2px 5px rgba(225, 0, 0, 0.25), 2px -5px rgb(255, 0, 0);
-  color: rgba(225, 0, 0, 0.5);
+  text-shadow: -2px 5px rgba(0, 94, 255, 0.25), 2px -5px rgb(0, 94, 255);
+  color: rgba(0, 94, 255, 0.5);
 }
 .anchor-padding {
   padding-top: 70px;
@@ -35,8 +35,8 @@ p, h3 {
 }
 .pic-anchor a:hover {
   opacity: 100%;
-  text-shadow: -2px 5px rgba(225, 0, 0, 0.25), 2px -5px rgb(225, 0, 0);
-  color: rgba(225, 0, 0, 0.5);
+  text-shadow: -2px 5px rgba(0, 94, 255, 0.25), 2px -5px rgb(0, 94, 255);
+  color: rgba(0, 94, 255, 0.5);
   transition: color .25s, opacity .25s, text-shadow .25s;
 }
 .pic-anchor a {
